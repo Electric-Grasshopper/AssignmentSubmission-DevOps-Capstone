@@ -10,8 +10,8 @@ terraform {
 # intialising S3 bucket to use it for storing terraform statefile
 terraform {
   backend "s3" {
-    bucket = "upgrad-assignment-m4"
-    key    = "m5/demo1/tfstatefile"
+    bucket = "upgrad-assignment-devops"
+    key    = "ml/demo1/tfstatefile"
     region = "us-east-1"
   }
 }
